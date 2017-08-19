@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <title>Forum.IO</title>
+    <title>Forum.IO - Registrate</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" sizes="57x57" href="/images/icons/apple-icon-57x57.png">
@@ -23,17 +23,17 @@
 		<meta name="theme-color" content="#ffffff">
 
     <meta name="author" content="Wildin Mota">
-    <meta name="description" content="Este es un mini foro abierto conectado con todos donde puedes compartir experiencias e interactuar con los demas">
+    <meta name="description" content="Registrate en Forum.IO y conoce personas de todo el mundo, ademas podras pasar un buen rato con ellos">
     <meta name="keywords" content="Foro, abierto, chat, mini">
 
     <meta property="og:title" content="Forum.IO">
     <meta property="og:image" content="/images/f.io-310x310.png">
-    <meta property="og:description" content="Este es un mini foro abierto conectado con todos donde puedes compartir experiencias e interactuar con mas personas">
+    <meta property="og:description" content="Registrate en Forum.IO y conoce personas de todo el mundo, ademas podras pasar un buen rato con ellos. Visita nuestra pagina en Facebook">
 
     <meta property="twitter:title" content="Forum.IO">
-    <meta property="twitter:image" content="/images/f.io.png">
-    <meta property="twitter:description" content="Este es un mini foro abierto conectado con todos donde puedes compartir experiencias e interactuar con mas personas"> 
-		<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <meta property="twitter:image" content="/images/f.io-310x310.png">
+    <meta property="twitter:description" content="Registrate en Forum.IO y conoce personas de todo el mundo, ademas podras pasar un buen rato con ellos. Siguenos en Twitter"> 
+		<link href="https://fonts.googleapis.com/css?family=Righteous|Raleway" rel="stylesheet">
     <script
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
@@ -70,18 +70,22 @@
 			<div class="col-md-6"><img src="/images/f.io.png" style="height:auto; width:100%;" alt=""><br>
 			<p class="text">Al entrar en nuestra divertida comunidad, conoceras personas de todo el mundo con la que te llevaras muy bien, vamos hazlo</p>
 			</div>
-			<div class="col-md-6 col-xs-12">
+			<div class="col-md-1"></div>
+			<div class="col-md-5 col-xs-12">
 				<div class="form">
 				<h2 style="color:#5D90FF;">Registrate ya en FORUM.IO</h2><hr>
-					<form action="">
-						<input type="text" class='form-control input-lg ' name='username' placeholder="Escribe tu nombre..." />
-						<input type="email" class='form-control input-lg ' name="email" placeholder="Escribe tu email..." />
-						<input type="password" class='form-control input-lg ' name="password" placeholder="Escribe tu contrasenia...">
-						<input type="password" class='form-control input-lg ' name="confirm_password" placeholder="Confirma tu contrasenia..."/><br><br>
+					<form action="/signin" method="POST">
+						<input type="text" class='' name='username' placeholder="Escribe tu nombre..." required />
+						<input type="email" class='' name="email" placeholder="Escribe tu email..." / required>
+						<input type="password" class='' name="password" placeholder="Escribe tu contraseña..." required>
+						<input type="password" class='' name="confirm_password" placeholder="Confirma tu contraseña..." required /><br><br>
 						<button class="btn btn-info btn-lg">Registrate</button>
 					</form>
 					<br>
-					<p>Ya tienes una cuenta? <a href="">Inicia sesion</a></p>
+				</div>
+
+				<div class="signinlnk">
+						<p>Ya tienes una cuenta? <a href="">Inicia sesion</a></p>
 				</div>
 			</div>
 		</div>

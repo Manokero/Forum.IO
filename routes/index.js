@@ -15,7 +15,7 @@ router.post('/signup',function(req,res){
 })
 
 router.get('/signin',function(req,res){
-	res.send("NOT STILL AVALIBLE")
+	res.render("signin")
 })
 
 

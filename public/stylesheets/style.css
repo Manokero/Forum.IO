@@ -16,7 +16,7 @@ input{
   	border-bottom: solid 2px #c9c9c9;
   	transition: border 0.3s;
   	text-align: center;
-    
+    outline: none;
 }
 
 .form{
@@ -36,7 +36,7 @@ input{
 }
 
 input:focus{
-	border-bottom: solid 4px red;
+	border-bottom: solid 3px #5D90FF;
 }
 
 .signinlnk{
